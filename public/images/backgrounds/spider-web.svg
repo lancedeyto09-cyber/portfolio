@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" fill="none">
+  <defs>
+    <linearGradient id="thread" x1="10" y1="8" x2="246" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B45CFF"/>
+      <stop offset=".52" stop-color="#795CFF"/>
+      <stop offset="1" stop-color="#78E5FF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#78E5FF" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#78E5FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="0" cy="0" r="150" fill="url(#glow)"/>
+  <g stroke="url(#thread)" stroke-linecap="round">
+    <g stroke-width="1.35" opacity=".78">
+      <path d="M0 0H260"/>
+      <path d="M0 0 250 58"/>
+      <path d="M0 0 236 112"/>
+      <path d="M0 0 207 169"/>
+      <path d="M0 0 164 220"/>
+      <path d="M0 0 106 250"/>
+      <path d="M0 0V260"/>
+      <path d="M0 0 58 250"/>
+      <path d="M0 0 112 236"/>
+      <path d="M0 0 169 207"/>
+      <path d="M0 0 220 164"/>
+    </g>
+    <g stroke-width="1.15" opacity=".68">
+      <path d="M0 30Q38 33 53 0"/>
+      <path d="M0 57Q75 62 91 0"/>
+      <path d="M0 86Q111 90 129 0"/>
+      <path d="M0 116Q145 120 165 0"/>
+      <path d="M0 148Q179 151 198 0"/>
+      <path d="M0 181Q214 184 229 0"/>
+      <path d="M0 215Q244 218 250 0"/>
+      <path d="M0 246Q258 250 258 0"/>
+    </g>
+    <circle cx="0" cy="0" r="5" fill="#78E5FF" stroke="none"/>
+  </g>
+</svg>
